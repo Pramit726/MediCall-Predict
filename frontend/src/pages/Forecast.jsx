@@ -98,8 +98,8 @@ const Forecast = () => {
                     <td className="px-6 py-4 text-slate-400">{index}</td>
                     <td className="px-6 py-4 font-medium text-slate-700">{row.month}</td>
                     <td className="px-6 py-4 text-slate-900">{row.forecasted_calls.toLocaleString()}</td>
-                    <td className={`px-6 py-4 font-bold ${row.change >= 0 ? 'text-green-600' : 'text-red-600'}`}>
-                      {row.change > 0 ? `+${row.change}` : row.change}%
+                    <td className={`px-6 py-4 font-bold ${row.change_from_previous_month >= 0 ? 'text-green-600' : 'text-red-600'}`}>
+                      {row.change_from_previous_month > 0 ? `+${row.change_from_previous_month}` : row.change_from_previous_month}%
                     </td>
                   </tr>
                 ))}

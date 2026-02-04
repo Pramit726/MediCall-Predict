@@ -1,6 +1,7 @@
-    uvicorn api.main:app --reload --port 8000
+uvicorn api.main:app --reload --port 8000
 npm run dev
 
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ODMyNGZjOTdjM2E3OTUyMWVjOTc0YSIsInJvbGUiOiJBZG1pbiIsImlhdCI6MTc3MDIwMjUxOSwiZXhwIjoxNzcwMjA2MTE5fQ.IsM-Gkroy8ELRjtKvEbDpXCSb1agIZBdgrLyv05oqqk
 
-npm start 
+
+conda activate venv
