@@ -103,7 +103,7 @@ const Home = () => {
               </div>
 
               <p className="text-slate-300 text-lg leading-relaxed mb-10 max-w-3xl font-medium">
-                This system leverages a <span className="text-white font-bold">microservices approach</span> to separate intensive Prophet-based 
+                This system leverages a <span className="text-white font-bold">microservices approach</span> to separate intensive ARIMA-based 
                 forecasting from secure data management. By decoupling the FastAPI Engine from the MERN Middleware, we ensure 
                 scalability and immutable logging for clinical compliance.
               </p>
